@@ -18,7 +18,7 @@ Alur dan fitur utama aplikasinya:
 
 ---
 
-## 2. Dokumentasi Pengujian Fitur (Screenshot)
+## 2. Dokumentasi Pengujian Fitur 
 Berikut adalah bukti screenshot hasil uji coba CRUD dan validasi *error* di aplikasi:
 
 - **Pengujian Error (Kolom Kosong):**
