@@ -1,8 +1,13 @@
-# TP5DPBO2526C1 - PeopleData App (MySQL & Database Integration)
+**Tugas Praktikum 5 DPBO 2026 - Kelas C1**
 
-Praktikum DPBO - Tugas Praktikum Modul 5 (Menghubungkan Java Swing GUI dengan Database MySQL & JDBC)[cite: 1, 3, 5].
+Topik: (Menghubungkan Java Swing GUI dengan Database MySQL & JDBC)[cite: 1, 3, 5].
 
----
+
+Nama: Muh. Adib Al-Fathi NIM: 2500418 Kelas: C1
+
+**Janji**
+
+Saya Muh. Adib Al-Fathi dengan NIM 2500418 mengerjakan Tugas Praktikum 5 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## 1. Desain Program & Penjelasan Alur (CRUD Database)
 Aplikasi **PeopleData** ini merupakan pengembangan dari tugas praktikum sebelumnya. Jika sebelumnya aplikasi menggunakan penyimpanan sementara berbasis `ArrayList`, pada modul ini seluruh penyimpanan data telah dimigrasikan secara penuh ke **Database MySQL** menggunakan koneksi **JDBC**[cite: 1, 3, 5].
