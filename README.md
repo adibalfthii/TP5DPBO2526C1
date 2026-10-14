@@ -6,17 +6,22 @@ Nama: Muh. Adib Al-Fathi NIM: 2500418 Kelas: C1
 
 Saya Muh. Adib Al-Fathi dengan NIM 2500418 mengerjakan Tugas Praktikum 5 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-## 1. Penjelasan Singkat & Alur Program
+## 1. Desain Program & Penjelasan Alur
 Di Modul 5 ini, aplikasi Java Swing GUI yang tadinya nyimpen data pakai `ArrayList` lokal, sekarang sudah di-upgrade supaya terhubung langsung ke **Database MySQL** menggunakan JDBC[cite: 1, 3, 5].
 
-Alur dan fitur utama aplikasinya:
-- **Koneksi (`Database.java`):** Mengatur koneksi driver JDBC ke database `db_people`[cite: 3].
+### A. Desain Program (Struktur Kelas & Database)
+* **Struktur Kelas (`PersonData`):**
+  - `Database.java`: Mengatur koneksi utama ke database MySQL (`db_people`) menggunakan JDBC.
+  - `Person.java`: Kelas model untuk menampung atribut data (id, nama, tahun lahir, kategori, status).
+  - `PeopleMenu.java` & `PeopleMenu.form`: Kelas antarmuka Java Swing (GUI) dan *layout* form interaktif.
+* **Skema Database (`db_people`):**
+  - Menggunakan satu tabel utama bernama `person` dengan kolom: `id` (Primary Key), `nama`, `tahun_lahir`, `kategori`, dan `status`.
+
+### B. Penjelasan Alur Program (CRUD)
 - **Create (Add):** Nambah data baru ke database. Dilengkapi validasi supaya form gak boleh kosong dan ID gak boleh kembar (*duplicate ID*)[cite: 1, 5].
 - **Read:** Menampilkan data dari tabel database secara otomatis ke `JTable` pas aplikasi pertama kali dibuka[cite: 1, 3, 5].
 - **Update:** Mengubah data yang ada dengan cara klik baris di tabel (pakai *Mouse Listener* buat narik data ke form), edit, terus klik update[cite: 1, 5].
 - **Delete:** Menghapus data dari database lengkap dengan pop-up konfirmasi *JOptionPane*[cite: 1, 5].
-
----
 
 ## 2. Dokumentasi Pengujian Fitur 
 Berikut adalah bukti screenshot hasil uji coba CRUD dan validasi *error* di aplikasi:
